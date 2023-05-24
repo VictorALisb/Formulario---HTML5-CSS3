@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário HTML5 & CSS3 | @VictorALisb</title>
+</head>
+<body>
+    <h1>Formulário HTML & CSS by @VictorALisb</h1>
+    <div class="formulario">
+        <fieldset>
+            <legend>Cadastro</legend>
+                <form action="">
+                    <div class="campo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" class="inpu" required>
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="inpu" required>
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" class="inpu" required>
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="date">Data de Nascimento</label>
+                        <input type="date" >
+                    </div>  
+                    <div>
+                        <br>
+                        <p>Gênero:</p>
+                        <br>
+                        <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                        <label for="feminino">Feminino</label>
+                        <br>
+                        <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                        <label for="masculino">Masculino</label>
+                        <br>
+                        <input type="radio" id="outro" name="sexo" value="outro" required>
+                        <label for="outro">Outro</label>
+                    </div>
+                    <input type="submit" value="Cadastrar" class="submit"> 
+                </form>
+        </fieldset>
+    </div>
+</body>
+</html>
