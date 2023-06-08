@@ -7,17 +7,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgb(0, 202, 238), rgb(0, 255, 136));
+    background: linear-gradient(rgb(30, 4, 63), rgb(60, 8, 102), rgb(89, 20, 145));
     color: black;
 }
 h1{
-    background-color: rgba(7, 55, 63, 0.616);
+    background-color: rgba(0, 0, 0, 0.616);
     color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 15px;
     height: 70px;
 }
-
 .formulario{
     position: absolute;
     left: 50%;
@@ -33,17 +32,17 @@ h1{
     width: 25%;
     color: white;
 }
-
 fieldset{
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px;
 }
 legend{
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
+    font-weight: bold;
     color: white;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(104, 29, 175);
     border-radius: 9px;
 }
 .campo{
@@ -62,7 +61,6 @@ legend{
     letter-spacing: 2px;
     
 }
-
 .submit{
     margin-top: 10px;
     background:rgb(1, 82, 255) ;
@@ -75,8 +73,9 @@ legend{
     border-radius: 9px;
 }
 .submit:hover{
-    color: rgb(255, 255, 255);
-    background:rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background:rgb(5, 219, 112);
 
 }
 
